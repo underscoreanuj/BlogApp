@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.anuj.blogapp.AccountSetup">
+
+    <ImageButton
+        android:id="@+id/setup_image_btn"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/profile_setup"
+        android:layout_marginBottom="8dp"
+        android:background="@android:color/white"
+        android:adjustViewBounds="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/setup_image_btn"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <EditText
+            android:id="@+id/setup_name_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/outline"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Name"
+            android:padding="12dp"
+            android:layout_marginBottom="8dp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/setup_save_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="save"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="24dp"
+        android:layout_alignParentBottom="true"/>
+
+
+</RelativeLayout>
