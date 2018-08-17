@@ -1,6 +1,6 @@
 # Android BlogApp
 
-This app works on Google's Firebase and uilises the realtime database, authentication, and storage.
+This app works on Google's Firebase and utilises the realtime database, authentication, and storage.
 
 ## Getting Started
 
